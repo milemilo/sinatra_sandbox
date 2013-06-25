@@ -1,0 +1,39 @@
+<div class="container">
+  <h1>Welcome to Sinatra!</h1>
+
+  <form action="/cool_url" method="get">
+  <label> Please enter your first name</label>
+  <input type="text" name="input">
+  <p></p>
+  <label> Tell me about yourself</label>
+  <textarea cols="40" rows="5" name="description">
+  </textarea/>
+  <p></p>
+  <label> Select your eye color<label><br>
+  <input type="radio" name="eye_color" value ="Blue"> Blue<br>
+    <input type="radio" name="eye_color" value ="Green"> Green<br>
+      <input type="radio" name="eye_color" value ="Black"> Black<br><br>
+  <label>What do you wanna drink</label>
+  <p></p>
+  <select name="drinks">
+  <option value="milk">Milk</option>
+  <option value="coffee">Coffee</option>
+  <option value="tea">Tea</option>
+</select>
+<p></p>
+  <input type="checkbox" name="option1" value="Pizza"> Pizza<br>
+  <input type="checkbox" name="option2" value="Lasagna"> Lasagna<br>
+  <input type="checkbox" name="option3" value="Hamburger"> Hamburger<br><br>
+  <input type="submit" value="Hit IT!">
+  </form>
+
+
+<p></p>
+
+
+  <form action="/cool_url" method="post">
+  <label> Please enter your last name</label>
+  <input type="text" name="last_input">
+  <input type="submit" value="Hit THIS!">
+  </form>
+</div>
